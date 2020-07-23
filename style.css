@@ -1117,6 +1117,7 @@ ul {
 }
 
 .blocks-item {
+  background: #ffffff;
   border: 1px solid $brand_color;
   border-radius: 4px;
   box-sizing: border-box;
