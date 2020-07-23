@@ -6,8 +6,8 @@ This is a modified theme based off of Zendesk's default theme, Copenhagen.
 
 More detailed instructions by Zendesk are below, but here are the basic steps to make updates.
 
-1. Make the appropriate styling or template changes
-2. Run `./bin/compile.rb` in the terminal
+1. Make the appropriate styling ([/styles](/styles)) or ([template](/template)) changes
+2. Run `./bin/compile.rb` in the terminal if any `.scss` files was changed. This will generate `style.css` in the root folder.
 3. Increment the version number in `manifest.json`
 4. Commit the changes
 5. In the [zendesk theming workbench](https://help.palmetto.com/theming/workbench), press the "Update from Github" button to import the updates
