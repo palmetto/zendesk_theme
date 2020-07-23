@@ -1,3 +1,20 @@
+# Palmetto Theme
+
+This is a modified theme based off of Zendesk's default theme, Copenhagen.
+
+## Publishing Changes
+
+More detailed instructions by Zendesk are below, but here are the basic steps to make updates.
+
+1. Make the appropriate styling or template changes
+2. Run `./bin/compile.rb` in the terminal
+3. Increment the version number in `manifest.json`
+4. Commit the changes
+5. In the [zendesk theming workbench](https://help.palmetto.com/theming/workbench), press the "Update from Github" button to import the updates
+6. Verify your theme changes: https://help.palmetto.com/hc/en-us
+
+-----
+
 # Copenhagen Theme by Zendesk
 
 The Copenhagen theme is the default Zendesk Guide theme. It is designed to be responsive and accessible.
@@ -128,7 +145,7 @@ We use [conventional commits](https://conventionalcommits.org/) to improve reada
 - body: (optional) additional contextual information about the change
 - footer: (optional) adds external links, issue references and other meta-information
 
-i.e.: 
+i.e.:
 
 ```
 chore: automate release
@@ -145,7 +162,7 @@ We use [Github actions](https://github.com/features/actions) together with [`sem
 The list bellow describes the supported commit types and their effect in the release and changelog.
 
 | Type     | Description                                                                                            | Release | Changelog                |
-|----------|--------------------------------------------------------------------------------------------------------|---------|--------------------------|
+| -------- | ------------------------------------------------------------------------------------------------------ | ------- | ------------------------ |
 | build    | Changes that affect the build system or external dependencies                                          | -       | -                        |
 | chore    | Other changes that don't modify the source code                                                        | -       | -                        |
 | ci       | Changes to our CI configuration files and scripts                                                      | -       | -                        |
