@@ -1,6 +1,10 @@
 /***** Header *****/
 $header-height: 71px;
 
+.header-container {
+  background-color: #ffffff;
+}
+
 .header {
   @include max-width-container;
   position: relative;
